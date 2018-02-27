@@ -1,0 +1,5 @@
+Первое сообщение в 1С выводится после запроса select * from Config WHERE FileName = 'commit'. 
+В копии запрос возвращает пусто, удаляю в поврежденной базе этот флаг (delete from config where FileName = 'commit').
+
+Запускаю 1С, снова выводится первое сообщение, но уже после запроса select * from Config WHERE FileName = 'dbStruFinal'. 
+В копии запрос возвращает пусто, удаляю в поврежденной базе этот флаг (delete from config where FileName = ' dbStruFinal').
